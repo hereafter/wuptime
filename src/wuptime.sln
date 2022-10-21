@@ -5,9 +5,42 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12C7DCEB-CB2F-4F5F-9D70-60BF7CEBB010}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wuptime", "wuptime\wuptime.vcxproj", "{E0FDE18B-7A09-45D7-AD9D-2607259275A9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Debug|ARM.Build.0 = Debug|ARM
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Debug|ARM64.Build.0 = Debug|ARM64
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Debug|x64.ActiveCfg = Debug|x64
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Debug|x64.Build.0 = Debug|x64
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Debug|x86.Build.0 = Debug|Win32
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Release|ARM.ActiveCfg = Release|ARM
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Release|ARM.Build.0 = Release|ARM
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Release|ARM64.ActiveCfg = Release|ARM64
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Release|ARM64.Build.0 = Release|ARM64
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Release|x64.ActiveCfg = Release|x64
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Release|x64.Build.0 = Release|x64
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Release|x86.ActiveCfg = Release|Win32
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0FDE18B-7A09-45D7-AD9D-2607259275A9} = {12C7DCEB-CB2F-4F5F-9D70-60BF7CEBB010}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0FFE5BA5-6744-4AB8-A364-210681300FE1}
