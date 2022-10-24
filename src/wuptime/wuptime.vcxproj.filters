@@ -12,10 +12,12 @@
     <ClCompile Include="main.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
+    <ClCompile Include="UptimeInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Other Files</Filter>
     </ClInclude>
+    <ClInclude Include="UptimeInfo.h" />
   </ItemGroup>
 </Project>
