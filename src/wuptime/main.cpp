@@ -1,5 +1,7 @@
 ﻿#include "pch.h"
 #include "UptimeInfo.h"
+
+
 using namespace std;
 
 constexpr const char* __HELP__ = "\n"
@@ -17,5 +19,11 @@ constexpr const char* __HELP__ = "\n"
 int main()
 {
     UptimeInfo info;
+
+    wstringstream ss;
+    ss << info.CurrentTime() << endl;
+    ss << info.StartDateTime() << endl;
+    
+    cout << CW2A(ss.str().c_str(), CP_UTF8).m_psz;
     return 0;
 }

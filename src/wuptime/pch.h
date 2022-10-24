@@ -1,9 +1,13 @@
 ﻿#pragma once
-#define WIN32_LEAN_AND_MEAN
+
+#include <tchar.h>
+#include <atlstr.h>
+#include <Windows.h>
 
 #include <cstdint>
 #include <sstream>
 #include <iostream>
 #include <string>
-#include <tchar.h>
-#include <Windows.h>
+#include <chrono>
+
+
