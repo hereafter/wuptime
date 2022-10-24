@@ -13,13 +13,11 @@
       <Filter>Other Files</Filter>
     </ClCompile>
     <ClCompile Include="Uptime.cpp" />
-    <ClCompile Include="ArgumentParser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Other Files</Filter>
     </ClInclude>
     <ClInclude Include="Uptime.h" />
-    <ClInclude Include="ArgumentParser.h" />
   </ItemGroup>
 </Project>

@@ -152,12 +152,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ArgumentParser.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Uptime.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArgumentParser.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
