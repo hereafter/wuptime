@@ -102,5 +102,46 @@ wstring UptimeInfo::Uptime() const
 wstring UptimeInfo::PrettyUptime() const
 {
 	wstringstream ss;
+	ss << "up ";
+
+	int values = 0;
+	if (_decades > 0)
+	{
+		ss << _decades << (_decades > 1?" decades":" decade");
+		values++;
+	}
+
+	if (_weeks > 0)
+	{
+		if (values > 0) ss << ", ";
+		ss << _weeks << (_weeks > 1 ? " weeks" : " week");
+		values++;
+	}
+
+	if (_days > 0)
+	{
+		if (values > 0) ss << ", ";
+		ss << _days << (_days > 1 ? " days" : " day");
+		values++;
+	}
+
+	if (_hours > 0)
+	{
+		if (values > 0) ss << ", ";
+		ss << _hours << (_hours > 1 ? " hours" : " hour");
+		values++;
+	}
+
+	if (_minutes > 0)
+	{
+		if (values > 0) ss << ", ";
+		ss << _minutes << (_minutes > 1 ? " minutes" : " minute");
+		values++;
+	}
+
+	if (values == 0)
+	{
+		ss << "seconds";
+	}
 	return ss.str();
 }

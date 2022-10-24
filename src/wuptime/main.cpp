@@ -19,6 +19,7 @@ int main(int argc, const char** argv)
     UptimeInfo info;
     wstringstream ss;
     ss << info.Uptime() << endl;
+    ss << info.PrettyUptime() << endl;
     ss << info.StartDateTime() << endl;
     
     cout << CW2A(ss.str().c_str(), CP_UTF8).m_psz;
